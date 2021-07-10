@@ -1,0 +1,21 @@
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(16, 30px);
+}
+
+.grid-box {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+}
+
+.lightgreen {
+    background-color: lightgreen;
+}
